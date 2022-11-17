@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+p.positioned
+{
+position: relative;
+}
+
+p.headerlight 
+{
+  color: #fff;
+  font-family:'Josefin Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+  text-align:center;
+  line-height: 1.25;
+}
+
+p.headerbold
+{
+  color: #fff;
+  font-family:'Josefin Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-align:center;
+  line-height: 1.25;
+  padding-left: 1%
+}
+
+p.header
+{
+color: #fff;
+font-family:'Josefin Sans', sans-serif;
+font-weight: 700;
+font-size: 85px;
+text-align:center;
+line-height: 1;
+}
+
+p.textlight 
+{
+  color: #fff;
+  font-family:'Josefin Sans', sans-serif;
+  font-size: 34px;
+  font-weight: 100;
+  text-align:center;
+  line-height: 1.25;
+}
+
+p.textbold
+{
+color: #fff;
+font-family:'Josefin Sans', sans-serif;
+font-weight: 700;
+font-size: 60px;
+text-align:center;
+line-height: 1;
+}
+
+
+p.text
+{
+color: #fff;
+font-family:'Kumbh Sans', sans-serif;
+font-size: 16px;
+text-align:center;
+line-height: 1;
+}
+
+p.textpararight
+{
+color: #fff;
+font-family:'Kumbh Sans', sans-serif;
+font-size: 16px;
+text-align:inherent;
+line-height: 1;
+padding-right: 15%;
+}
+
+p.textparaleft
+{
+color: #fff;
+font-family:'Kumbh Sans', sans-serif;
+font-size: 16px;
+text-align:inherent;
+line-height: 1;
+padding-left: 15%;
+}
+
+p.supersmall
+{
+color: #fff;
+font-family:'Kumbh Sans', sans-serif;
+font-size: 12px;
+text-align:center;
+}
+
+button.positioned
+{
+  position: relative;
+  font-family:'Josefin Sans', sans-serif;
+  font-weight: 300;
+  background: transparent;
+  width: 250px;
+  border-radius: 0;
+  border-color: #fff;
+  font-size: 12px;
+  padding: 10px;
+  color: #fff;
+}
+
+p.align-left
+{
+  text-align: left;
+}
+
+p.align-right
+{
+  text-align: right;
+}
+
+
+.btn-secondary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff; /*set the color you want here*/
+}
+
+.image-container {
+  width: 100%;
+  text-align: center;
+}
+
+.image {
+    object-fit: contain;
+    width: 30% !important;
+    text-align: center;
+    position: relative !important;
+    height: unset !important;
+}
+
+
+.navlink {
+  color: 'white'
+}
