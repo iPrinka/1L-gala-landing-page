@@ -1,13 +1,12 @@
 import React from 'react';
-import { Button, Container} from 'reactstrap';
-import bg from '../public/hero.png'
+import { Button } from 'reactstrap';
 import Background from './Background';
 
 
 const Hero = () => {
     return (
         <section className="section position-relative">
-            <Background img={bg}/>
+            <Background img="/hero.png"/>
             <div style={{paddingBottom: '4%'}}>
                 <p className="positioned headerlight">ONE LEAGUE NEW YEAR</p>
                 <p className="positioned header">GLOBAL GALA</p>

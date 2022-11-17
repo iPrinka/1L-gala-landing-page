@@ -1,13 +1,12 @@
 import React from 'react';
 import LeftActionCard from './LeftActionCard';
 import Background from './Background';
-import bg from '../public/bg.png'
 import RightActionCard from './RightActionCard';
 
 const Actions = () => {
     return (
         <section className="section position-relative" style={{padding: '10%'}}>
-            <Background img={bg}/>
+            <Background img="/bg.png"/>
             <LeftActionCard 
                 text1="PARTICIPATE IN OUR"
                 text2="AUCTION"
