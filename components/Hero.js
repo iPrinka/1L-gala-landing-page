@@ -14,9 +14,11 @@ const Hero = () => {
                 <p className="positioned text">Help us bring world-class education to those who cannot afford it</p>
             </div>
             <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
-                <Button className='positioned'>
-                    GIVE FORWARD
-                </Button>
+                <a href='https://one-league.org' target="_blank">
+                    <Button className='positioned'>
+                        GIVE FORWARD
+                    </Button>
+                </a>
                 <p className="positioned supersmall">Fundraise Event | January 21, 2023</p>
             </div>
         </section>

@@ -20,9 +20,11 @@ const RightActionCard = (props) => {
             <Row>
                 <Col></Col>
                 <Col style={{paddingLeft: '25%', paddingTop: '1%'}}>
-                    <Button className='positioned align-right'>
-                        {props.buttonText}
-                    </Button>
+                    <a href='https://one-league.org' target="_blank">
+                        <Button className='positioned align-right'>
+                            {props.buttonText}
+                        </Button>
+                    </a>
                 </Col>
             </Row>
         </div>

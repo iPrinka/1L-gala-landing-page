@@ -16,13 +16,13 @@ const Header = () => {
       <Navbar light expand="md">
         <Container>
             <Nav className="m-auto" navbar>
-                <NavLink href="https://www.facebook.com/oneleagueorg">
+                <NavLink href="https://www.facebook.com/oneleagueorg" target="_blank">
                     <img src='https://fastly-cdn-shopvida.global.ssl.fastly.net/OneLeague/Icons/facebook-logo.png?auto=webp' style={{'width': '1.5rem'}}/>
                 </NavLink>
-                <NavLink href="https://www.linkedin.com/school/oneleagueorg/">
+                <NavLink href="https://www.linkedin.com/school/oneleagueorg/" target="_blank">
                     <img src='https://fastly-cdn-shopvida.global.ssl.fastly.net/OneLeague/Icons/linkedin-logo.png?auto=webp' style={{'width': '1.5rem'}}/>
                 </NavLink>
-                <NavLink href="https://www.instagram.com/oneleagueorg/">
+                <NavLink href="https://www.instagram.com/oneleagueorg/" target="_blank">
                   <img src='https://fastly-cdn-shopvida.global.ssl.fastly.net/OneLeague/Icons/Instagram-Icon.png?auto=webp' style={{'width': '1.5rem'}}/>
                 </NavLink>
             </Nav>
@@ -33,10 +33,10 @@ const Header = () => {
             </NavbarBrand>
             <Nav className="m-auto" navbar>
               <NavItem>
-                <NavLink href="https://medium.com/@one_league" style={{color: 'white', fontFamily: 'Kumbh Sans', fontSize:'15px'}}>Blog</NavLink>
+                <NavLink href="https://medium.com/@one_league" target="_blank" style={{color: 'white', fontFamily: 'Kumbh Sans', fontSize:'15px'}}>Blog</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://one-league.org/" style={{color: 'white', fontFamily: 'Kumbh Sans', fontSize:'15px'}}>Website</NavLink>
+                <NavLink href="https://one-league.org/" target="_blank" style={{color: 'white', fontFamily: 'Kumbh Sans', fontSize:'15px'}}>Website</NavLink>
               </NavItem>
             </Nav>
         </Container>
