@@ -6,7 +6,7 @@ import RightActionCard from './RightActionCard';
 const Actions = () => {
     return (
         <section className="section position-relative" style={{padding: '10%'}}>
-            <Background img="/bg.png"/>
+            <Background img="/bg.jpg"/>
             <LeftActionCard 
                 text1="PARTICIPATE IN OUR"
                 text2="AUCTION"

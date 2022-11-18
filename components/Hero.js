@@ -6,7 +6,7 @@ import Background from './Background';
 const Hero = () => {
     return (
         <section className="section position-relative">
-            <Background img="/hero.png"/>
+            <Background img="/hero.jpg"/>
             <div style={{paddingBottom: '4%'}}>
                 <p className="positioned headerlight">ONE LEAGUE NEW YEAR</p>
                 <p className="positioned header">GLOBAL GALA</p>
